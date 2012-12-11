@@ -39,3 +39,28 @@ rm -rf $RPM_BUILD_ROOT
 %{_sbindir}/usbmon
 %{_mandir}/man8/usbmon.8*
 
+
+
+%changelog
+* Wed Mar 16 2011 Stéphane Téletchéa <steletch@mandriva.org> 5.4-1mdv2011.0
++ Revision: 645476
+- update to new version 5.4
+
+* Sun Sep 20 2009 Thierry Vignaud <tv@mandriva.org> 5.3-2mdv2010.0
++ Revision: 445614
+- rebuild
+
+* Tue Dec 23 2008 Pascal Terjan <pterjan@mandriva.org> 5.3-1mdv2009.1
++ Revision: 317783
+- import usbmon
+
+
+* Tue Dec 23 2008 Pascal Terjan <pterjan@mandriva.org> 5.3-1mdv2009.1
+- Import into Mandriva
+
+* Thu Dec 18 2008 Pete Zaitcev <zaitcev@redhat.com> 5.3-1
+- Pull 5.3 in: license made explicit in usbmon.c per Fedora review feedback.
+  Also, change parse_params to protect print_48 from overflows.
+
+* Sun Dec 7 2008 Pete Zaitcev <zaitcev@redhat.com> 5.2-1
+- Initial revision (5.2)
