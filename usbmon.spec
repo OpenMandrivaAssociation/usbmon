@@ -6,7 +6,7 @@ Release:	1
 Summary:	A basic front-end to usbmon
 Group:		Development/Other
 License:	GPLv2
-URL:		http://people.redhat.com/zaitcev/linux/
+URL:		https://people.redhat.com/zaitcev/linux/
 Source:		http://people.redhat.com/zaitcev/linux/%{name}-%{version}.tar.gz
 
 %description
