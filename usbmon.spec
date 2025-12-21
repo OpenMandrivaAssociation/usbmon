@@ -9,6 +9,7 @@ License:	GPLv2
 URL:		https://people.redhat.com/zaitcev/linux/
 Source:		http://people.redhat.com/zaitcev/linux/%{name}-%{version}.tar.gz
 
+BuildRequires:	make
 %description
 The usbmon program collects and prints a trace of USB transactions as they
 occur between the USB core and HCDs. Analyzing the trace helps to debug the
